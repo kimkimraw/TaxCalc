@@ -1,0 +1,77 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body {
+	width:100vw;
+	height: 50vh;
+	overflow: visible;
+	text-align: center;
+	justify-content: center;
+	margin-top:5vh;
+}
+h3{
+	border-top: dashed 3px rgba(0,200,10,0.7);
+	border-bottom: dashed 3px rgba(0,200,10,0.7);
+	padding: 10px;
+}
+
+.errorText{
+	color:red;
+	font-weight: bold;
+}
+
+input{
+	outline: none;
+	width:20vw;
+	min-width: 40vw;
+	height: 5vh;
+	font-size: 1rem;
+	border-bottom: solid 4px orange;  
+}
+
+
+input:focus{
+	box-shadow: 2px 2px 5px orange;
+	border-bottom:solid 4px orange;
+}
+
+.taxRate{
+	width:2vw;
+	height: 4vh;
+}
+.taxform{
+	margin-right:20% auto;
+}
+
+.btn{
+	width: 20vw;
+	outline: none;
+	height: 5vh;
+	max-height: 10vh;
+	background: rgba(0,100,0,0.7);
+	color:white;
+	font-weight: bold;
+	font-size: 1rem;
+	border-bottom: solid 3px orange; 
+	border-radius: 120px
+}
+.btn:hover{
+	opacity: 0.8;
+}
+.btn:active{
+	border: none;
+	transform: translateY(3px);
+	background: rgba(0,100,0,0.8);
+}
+
+.result_form{
+	display: inline-block;
+	width:50vw;
+	height: auto;
+	border: double 4px black;
+}
+.result_form p {
+	padding: 10px;
+}
